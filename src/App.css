@@ -1,0 +1,78 @@
+body{
+  background-image: url(5bd2c68b96b41-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.App {
+  text-align: center;
+}
+
+h4{
+  text-align: center;
+  color: white;
+}
+h6{
+  text-align: center;
+  color: antiquewhite;
+}
+.Container{
+  text-align: center;
+}
+formulario{
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #455e8f;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(223, 104, 104);
+}
+
+.App-link {
+  color: #207b94;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@Media(max-width:750px){
+  .responsible-flex{
+    flex-direction: column;
+  }
+  .responsible-width{
+    width: 100% !important;
+  }
+}
+
+#f{
+  background-color: rgba(29, 27, 27, 0.8);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+#tablef{
+  background-color: rgba(206, 170, 170, 0.8);
+  border-radius: 10px;
+}
